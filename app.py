@@ -5,7 +5,7 @@ from io import BytesIO
 
 # تحميل النموذج المدرب
 # تحديث المسار إلى النموذج المدرب
-model_path = 'C:\\Users\\Sec\\Documents\\ASD17\\models\\XGBoost_with_SMOTE.pkl'
+model_path = 'XGBoost_with_SMOTE.pkl'
 
 # تحميل النموذج المدرب
 model = joblib.load(model_path)
